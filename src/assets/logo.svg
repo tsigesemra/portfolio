@@ -1,0 +1,23 @@
+<svg width="200" height="80" viewBox="0 0 200 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient background -->
+  <path d="M30 60C30 58.3438 31.9096 57 33.9493 57.1459L171.251 63.136C177.227 63.5794 182.591 58.226 182.161 52.2483C181.713 46.1161 175.434 42.5622 169.584 45.1306L32.4171 61.0151C31.2629 61.4854 30 60.6363 30 60Z" fill="url(#paint0_linear_2205_14)"/>
+  
+  <!-- "Tsige" in large, bold text (no external font needed) -->
+  <text x="100" y="50" 
+        font-family="Arial, Helvetica, sans-serif" 
+        font-weight="bold" 
+        font-size="36" 
+        fill="white" 
+        text-anchor="middle" 
+        dominant-baseline="middle">
+    TSIGE
+  </text>
+  
+  <defs>
+    <!-- Gradient (same as original) -->
+    <linearGradient id="paint0_linear_2205_14" x1="219.1" y1="39.9983" x2="202.599" y2="91.4037" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DF8908"/>
+      <stop offset="1" stop-color="#B415FF"/>
+    </linearGradient>
+  </defs>
+</svg>
