@@ -1,23 +1,29 @@
-<svg width="200" height="80" viewBox="0 0 200 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Gradient background -->
-  <path d="M30 60C30 58.3438 31.9096 57 33.9493 57.1459L171.251 63.136C177.227 63.5794 182.591 58.226 182.161 52.2483C181.713 46.1161 175.434 42.5622 169.584 45.1306L32.4171 61.0151C31.2629 61.4854 30 60.6363 30 60Z" fill="url(#paint0_linear_2205_14)"/>
+<svg width="180" height="70" viewBox="0 0 180 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient background with rounded shape -->
+  <path d="M30 50C30 48.343 32.5 47 35 47H150C154.418 47 158 50.582 158 55V55C158 59.418 154.418 63 150 63H35C32.5 63 30 61.657 30 60V50Z" fill="url(#paint0_linear)"/>
   
-  <!-- "Tsige" in large, bold text (no external font needed) -->
-  <text x="100" y="50" 
-        font-family="Arial, Helvetica, sans-serif" 
-        font-weight="bold" 
-        font-size="36" 
+  <!-- Smaller "Tsige" text with shadow effect -->
+  <text x="90" y="45" 
+        font-family="'Segoe UI', Arial, sans-serif" 
+        font-weight="700" 
+        font-size="28" 
         fill="white" 
         text-anchor="middle" 
-        dominant-baseline="middle">
-    TSIGE
+        dominant-baseline="middle"
+        style="text-shadow: 1px 1px 3px rgba(0,0,0,0.3);">
+    <tspan font-size="32">T</tspan>
+    <tspan style="text-transform: lowercase;" font-size="28" letter-spacing="0.5px">sige</tspan>
   </text>
   
+  <!-- Tiny decorative elements -->
+  <circle cx="50" cy="40" r="2" fill="#FFD700"/>
+  <circle cx="130" cy="40" r="2" fill="#B415FF"/>
+  
   <defs>
-    <!-- Gradient (same as original) -->
-    <linearGradient id="paint0_linear_2205_14" x1="219.1" y1="39.9983" x2="202.599" y2="91.4037" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#DF8908"/>
-      <stop offset="1" stop-color="#B415FF"/>
+    <!-- Gradient -->
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="180" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0.2" stop-color="#DF8908"/>
+      <stop offset="0.8" stop-color="#B415FF"/>
     </linearGradient>
   </defs>
 </svg>
