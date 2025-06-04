@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div>
       <Navbar/>
-      <Hero/>S
+      <Hero/>
       <About/>
       <Services/>
       <MyWork/>

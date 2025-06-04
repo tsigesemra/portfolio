@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-  margin: 80px 170px;
+  margin: 80px 10%;
 }
 .contact-title{
     position: relative;
@@ -12,7 +12,7 @@
 
 .contact-title h1{
     padding: 0px;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 600;
 }
 
@@ -25,17 +25,20 @@
 
 .contact-section{
     display: flex;
-    gap: 150px;
+    width: 100%;
+    justify-content: space-between;
+    gap: 30px;
 }
 
 .contact-left{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
+    flex-basis: 40%;
 }
 
 .contact-left h1 {
-    font-size: 80px;
+    font-size: 50px;
     font-weight: 700;
     background: linear-gradient(270deg, #DF8908 80%, #B415FF 100%);
     background-clip: text;
@@ -45,14 +48,14 @@
 .contact-left p{
 max-width: 550px;
 color: #D8D8D8;
-font-size: 20px;
-line-height: 35px;
+font-size: 16px;
+line-height: 25px;
 }
 
 .contact-details{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
     color: #DBDBDB;
     font-size: 22px;
 }
@@ -60,43 +63,54 @@ line-height: 35px;
 .contact-detail{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 18px;
 }
 
 .contact-right {
+    flex-basis: 55%;
     display: flex;
     flex-direction: column;
     align-items: start;
-    gap: 30px;
+    gap: 15px;
 }
 
 .contact-right label {
     color: #DBD8D8;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 500;
 }
 
 .contact-right input {
     border: none;
-    width: 700px;
-    height: 78px;
-    padding-left: 20px;
+    width: 100%;
+
+   padding: 18px 0 18px 20px;
     border-radius: 4px;
     background: #32323c;
     color: #A0A0A0;
     font-family: 'Outfit', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
+    caret-color: #A0A0A0;
+}
+
+.contact-right input:-webkit-autofill,
+.contact-right input:-webkit-autofill:hover,
+.contact-right input:-webkit-autofill:focus {
+    -webkit-text-fill-color: #A0A0A0;
+    -webkit-box-shadow: 0 0 0px 1000px #32323c inset;
+    transition: background-color 5000s ease-in-out 0s;
 }
 
 .contact-right textarea {
-    width: 650px;
+    width: 100%;
     border: none;
-    padding: 25px;
+    padding: 18px 0 18px 20px;
     border-radius: 4px;
     background: #32323c;
     color: #A0A0A0;
     font-family: 'Outfit', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
+    caret-color: #A0A0A0;
 }
 
 .contact-submit {
@@ -104,9 +118,9 @@ line-height: 35px;
     color: white;
     border-radius: 50px;
     background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
-    font-size: 22px;
-    padding: 20px 60px;
-    margin-bottom: 50px;
+    font-size: 18px;
+    padding: 18px 40px;
+    margin-bottom: 15px;
     cursor: pointer;
     transition: 0.3s;
 }
