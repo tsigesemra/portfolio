@@ -8,9 +8,9 @@ const Hero = () => {
   return (
     <div id='home' className="hero">
     <img src={profile_img} alt="Alex Bennett" className="hero-image" />
-    <h1 className="hero-title"><span>I'm Tsige Sitotaw,</span> frontend developer based in Ethiopia.</h1>
+    <h1 className="hero-title"><span>I'm Tsige Sitotaw,</span> an AI-assisted frontend developer.</h1>
     <p className="hero-description">
-      I am a frontend developer from California, USA with 10 years of experience.
+    I use the power of AI and modern frameworks like React to bring any idea to life — fast, scalable, and pixel-perfect.
     </p>
     <div className="hero-action">
       <button className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></button>
