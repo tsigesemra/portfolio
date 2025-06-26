@@ -261,11 +261,16 @@
     cursor: pointer;
     margin-top: 10px;
     align-self: flex-start;
-    transition: transform 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
-.mywork-readmore:hover {
+.mywork-readmore:hover, .mywork-readmore:focus {
     transform: scale(1.05);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    outline: none;
 }
 
 @media screen and (max-width: 900px) {

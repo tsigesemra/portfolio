@@ -44,8 +44,8 @@ const MyWork = () => {
                     <div className="mywork-section-content">
                       <h2>{section.heading}</h2>
                       <p>{section.text}</p>
-                      {section.readMore && (
-                        <button className="mywork-readmore">Read More</button>
+                      {section.readMore && mywork_data[idx].w_link && (
+                        <a className="mywork-readmore" href={mywork_data[idx].w_link} target="_blank" rel="noopener noreferrer">Show</a>
                       )}
                     </div>
                   </div>
