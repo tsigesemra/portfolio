@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import { SiHtml5, SiCss3, SiReact, SiJavascript, SiNodedotjs, SiMongodb, SiExpress, SiWordpress } from 'react-icons/si';
-import profile_img from '../../assets/about_profile.Jpg';
+import profile_img from '../../assets/about_profile.JPG';
 
 const About = () => {
     return (
