@@ -16,7 +16,7 @@ const sectionData = [
     heading: 'Fitness Website',
     text: 'A Wordpress site built with Elementore. Great example of how modern design and smart WordPress tools can come together to create something truly beautiful and functional.',
     img: mywork_data[1].w_img,
-    readMore: false,
+    readMore: true,
   },
   {
     heading: 'Portfolio Website',
