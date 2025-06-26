@@ -1,0 +1,9 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tGradient" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DF8908" />
+      <stop offset="1" stop-color="#B415FF" />
+    </linearGradient>
+  </defs>
+  <text x="8" y="32" font-size="32" font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="url(#tGradient)">T</text>
+</svg> 

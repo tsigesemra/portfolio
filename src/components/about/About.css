@@ -42,7 +42,7 @@
 }
 
 .about-left img{
-    width: 220px;
+    width: 190px;
     border-radius: 12px;
     height: auto;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -136,6 +136,26 @@
     transition: 0.3s;
 }
 
+.about-skill-logo {
+    width: 28px;
+    height: 28px;
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    /* filter: brightness(0) invert(1) drop-shadow(0 1px 2px rgba(0,0,0,0.08)); */
+    transition: transform 0.2s;
+}
+
+.about-skill-logo:last-of-type {
+    margin-right: 0;
+}
+
+.about-skill-logo-bg {
+    background: #fff;
+    border-radius: 6px;
+    padding: 2px;
+}
+
 /* Media Queries */
 @media screen and (min-width: 480px) {
     .about {
@@ -154,7 +174,7 @@
     }
 
     .about-left img {
-        width: 240px;
+        width: 210px;
     }
 
     .about-para {
@@ -197,7 +217,7 @@
     }
 
     .about-left img {
-        width: 260px;
+        width: 230px;
     }
 
     .about-right {
@@ -240,7 +260,7 @@
     }
 
     .about-left img {
-        width: 280px;
+        width: 250px;
     }
 
     .about-achievement h1 {
@@ -258,6 +278,6 @@
     }
 
     .about-left img {
-        width: 300px;
+        width: 270px;
     }
 }
