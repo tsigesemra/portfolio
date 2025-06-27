@@ -8,7 +8,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 const sectionData = [
   {
     heading: 'Food Delivery ',
-    text: 'A React website with cart page, checkout page and authentication dialog box. visually engaging, easy to navigate, and fast-loading. backend in progress ',
+    text: 'A React website with cart page, checkout page and authentication dialog box. visually engaging, easy to navigate, and fast-loading. backend in progress. ',
     img: mywork_data[0].w_img,
     readMore: true,
   },
